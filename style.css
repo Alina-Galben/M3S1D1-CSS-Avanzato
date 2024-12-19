@@ -1,0 +1,93 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
+.jumbotron h1 {
+    color: brown;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+nav > span {
+    color: mediumseagreen;
+    font-weight: bold;
+}
+
+.jumbotron a {
+    color: red;
+}
+
+.jumbotron a:hover {
+    color: blue;
+}
+
+.blog-post:first-of-type {
+    background-color: rgb(207, 252, 252);
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.blog-post:first-of-type hr {
+    border-color: red;
+}
+
+nav > span:nth-child(even) {
+    color: red
+}
+
+.list-unstiled:first-of-type li {
+    color: brown;
+}
+
+.blog-sidebar div:nth-of-type(2) ol li:nth-child(odd) a {
+    color: red;
+    font-weight: bold;
+}
+
+.blog-sidebar div:nth-of-type(2) ol li:nth-child(even) a {
+    font-weight: bold;
+}
+
+.blog-post:nth-of-type(2) .blog-post-meta a {
+    color: rgb(46, 6, 84);
+    font-weight: bold;
+    
+}
+
+.blog-post:nth-of-type(2) .blog-post-meta a:hover {
+    color: red;
+}
+
+.blog-post:nth-of-type(3) ul li:nth-of-type(2) {
+    font-weight: bold;
+    color: brown;
+}
+
+body > a:last-of-type:hover {
+    color: green;
+    font-weight: bold;
+}
+
+.blog-pagination > a:last-of-type {
+    background-color: yellow;
+}
+
+footer p > a:last-child {
+    color: rgb(16, 154, 6)
+}
+
+footer .list-unstyled li:nth-child(2) a {
+    /* Stile di esempio */
+    text-decoration: underline;
+}
